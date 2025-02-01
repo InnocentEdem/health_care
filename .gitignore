@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual Environment
+venv/
+.env/
+
+# FastAPI logs
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data files
+backend/irrigation/data/*.csv
+
+# VS Code settings
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Node modules (if applicable)
+node_modules/
+
+# Frontend build files (if using a bundler later)
+dist/
+build/
+
+# Environment variables
+.env.*
+
+# Cache
+.cache/
+
+# Uvicorn/Python compiled files
+*.pid
+*.db
+*.sqlite3
